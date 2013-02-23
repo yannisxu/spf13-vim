@@ -666,3 +666,12 @@
 " Finish local initializations {
     call InitializeDirectories()
 " }
+
+" Set Vim Encoding{
+    let $LANG="zh_CN.UTF-8"
+    set fileencodings=utf-8,gb18030,gbk,gb2312,big5
+    set termencoding=utf-8
+    set fileencoding=utf-8
+    set encoding=utf-8
+" }
+
